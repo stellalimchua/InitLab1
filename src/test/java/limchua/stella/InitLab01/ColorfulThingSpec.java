@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 public class ColorfulThingSpec {
     @Test
     public void getColorTest(){
-        ColorfulThing color = new ColorfulThing("red");
-        assertEquals("test color red", "blue", color.getColor());
+        ColorfulThing color = new ColorfulThing("blue");
+        assertEquals("test color blue", "blue", color.getColor());
     }
 }
